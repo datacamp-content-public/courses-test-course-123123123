@@ -40,6 +40,5 @@ print("hi there")
 
 `@sct`
 ```{python}
-Ex().has_output("something", pattern = False).fail(msg="You need to change the words in the quotation marks in the print statement.")
 Ex().has_output("hi there", pattern = False).success_msg("Nice!")
 ```
