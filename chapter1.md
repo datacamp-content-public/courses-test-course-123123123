@@ -42,5 +42,5 @@ print("hi there")
 ```{python}
 Ex().has_output("hi there", pattern = False)
 success_msg("Nice!")
-fail(msg="You need to change the words in the quotation marks in the print statement.")
+fail("You need to change the words in the quotation marks in the print statement.")
 ```
