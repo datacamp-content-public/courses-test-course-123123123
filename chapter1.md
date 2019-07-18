@@ -13,30 +13,31 @@ xp: 100
 skills: 2
 ```
 
-This is an example exercise.
+In this exercise, we will learn how to use the print function.
 
 `@instructions`
-
+Change the code so that it prints "hi there"
 
 `@hint`
-
+Did you change the words in the quotation marks?
 
 `@pre_exercise_code`
 ```{python}
-
+print("hello world")
 ```
 
 `@sample_code`
 ```{python}
-
+print("something")
 ```
 
 `@solution`
 ```{python}
-
+print("hi there")
 ```
 
 `@sct`
 ```{python}
-
+Ex().has_output("hi there", pattern = False)
+success_msg("Nice!")
 ```
