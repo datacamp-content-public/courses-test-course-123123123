@@ -40,6 +40,6 @@ print("hi there")
 
 `@sct`
 ```{python}
-Ex().has_output("hi there", pattern = False)
+Ex().has_output("hi there", no_output_msg="Did you replace the word 'something' with 'hi there'?", pattern = False)
 success_msg("Nice!")
 ```
