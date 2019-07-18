@@ -23,7 +23,9 @@ Did you change the words in the quotation marks?
 
 `@pre_exercise_code`
 ```{python}
-print("hello world")
+def repeat_print(content, iterations):
+  for i in range(0, iterations):
+    print(content)
 ```
 
 `@sample_code`
